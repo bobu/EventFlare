@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WINDOWS8PRO</Machine>
+    <WindowsUser>rober_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>1C3341EEC41CAFC6FB869038088A1612FAFFF46A7D8F9CC1090BD687DBAFB34E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>42c446f5-3c34-4548-b0d2-3e9b838868d9_1.0.0.0_neutral__d9z4yzjsnprp8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>42c446f5-3c34-4548-b0d2-3e9b838868d9_d9z4yzjsnprp8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>42c446f5-3c34-4548-b0d2-3e9b838868d9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=rober_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-08-24T19:16:19.562</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\EventFlare.exe">
+      <PackagePath>EventFlare.exe</PackagePath>
+      <Modified>2012-08-24T19:40:16.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\EventFlare.pdb">
+      <PackagePath>EventFlare.pdb</PackagePath>
+      <Modified>2012-08-24T19:40:16.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2011-12-13T05:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2011-12-13T05:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2011-12-13T05:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-08-24T19:15:58.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T23:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\ItemsPage.xaml">
+      <PackagePath>ItemsPage.xaml</PackagePath>
+      <Modified>2012-08-24T19:15:58.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\SplitPage.xaml">
+      <PackagePath>SplitPage.xaml</PackagePath>
+      <Modified>2012-08-24T19:40:08.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-08-24T19:16:04.974</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
