@@ -26,6 +26,7 @@ namespace EventFlare
     /// </summary>
     public sealed partial class ItemsPage : EventFlare.Common.LayoutAwarePage
     {
+
         public ItemsPage()
         {
             this.InitializeComponent();
@@ -58,7 +59,21 @@ namespace EventFlare
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
             var groupId = ((SampleDataGroup)e.ClickedItem).UniqueId;
-            this.Frame.Navigate(typeof(SplitPage), groupId);
+
+            var targetPage = typeof(SplitPage);
+
+            switch (groupId)
+            {
+                case "Group_Flares":
+                    targetPage = typeof(Flares);
+                    break;
+
+                default:
+                    break;
+            }
+
+            this.Frame.Navigate(targetPage, groupId);
+            
         }
     }
 }

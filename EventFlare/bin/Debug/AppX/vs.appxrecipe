@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-24T19:16:19.562</Modified>
+      <Modified>2012-08-24T22:23:34.788</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\EventFlare.exe">
       <PackagePath>EventFlare.exe</PackagePath>
-      <Modified>2012-08-24T19:40:16.570</Modified>
+      <Modified>2012-08-24T22:25:20.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\EventFlare.pdb">
       <PackagePath>EventFlare.pdb</PackagePath>
-      <Modified>2012-08-24T19:40:16.530</Modified>
+      <Modified>2012-08-24T22:25:20.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -64,6 +64,10 @@
       <PackagePath>App.xaml</PackagePath>
       <Modified>2012-08-24T19:15:58.330</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\Flares.xaml">
+      <PackagePath>Flares.xaml</PackagePath>
+      <Modified>2012-08-24T22:12:31.388</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
       <Modified>2012-06-26T23:19:20.000</Modified>
@@ -78,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-08-24T19:16:04.974</Modified>
+      <Modified>2012-08-24T21:49:02.018</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

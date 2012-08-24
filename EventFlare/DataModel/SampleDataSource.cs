@@ -301,26 +301,26 @@ namespace EventFlare.Data
                     group1));
             this.AllGroups.Add(group1);
 
-            var group2 = new SampleDataGroup("Group-2",
+            var group2 = new SampleDataGroup("Group_Flares",
                     "Flares",
                     "Flare Sessions Created by Attendees",
                     "Assets/LightGray.png",
-                    "Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante");
-            group2.Items.Add(new SampleDataItem("Group-2-Item-1",
-                    "Item Title: 1",
-                    "Item Subtitle: 1",
+                    "A Flare is a topical chat room quickly spun up by an attendee.");
+            group2.Items.Add(new SampleDataItem("Group_Flares-Item-1",
+                    "C# generics",
+                    "down n dirty with generics - Bill Buckner wants to know more.",
                     "Assets/DarkGray.png",
-                    "Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.",
+                    "",
                     ITEM_CONTENT,
                     group2));
-            group2.Items.Add(new SampleDataItem("Group-2-Item-2",
-                    "Item Title: 2",
-                    "Item Subtitle: 2",
+            group2.Items.Add(new SampleDataItem("Group_Flares-Item-2",
+                    "The new Async programming support in the clr",
+                    "",
                     "Assets/MediumGray.png",
                     "Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.",
                     ITEM_CONTENT,
                     group2));
-            group2.Items.Add(new SampleDataItem("Group-2-Item-3",
+            group2.Items.Add(new SampleDataItem("Group_Flares-Item-3",
                     "Item Title: 3",
                     "Item Subtitle: 3",
                     "Assets/LightGray.png",
