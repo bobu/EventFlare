@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}">
+    <Grid Style="{StaticResource LayoutRootStyle}" Margin="0,3,0,-3">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -36,11 +36,11 @@
             <Button x:ConnectionId='3' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
-        <Button x:ConnectionId='1' Content="Add" HorizontalAlignment="Left" Height="38" Margin="10,51,0,0" Grid.Row="1" VerticalAlignment="Top" Width="107"                       />
+        <Button x:ConnectionId='1' x:Name="AddButton" Content="Add" HorizontalAlignment="Left" Height="38" Margin="55,51,0,0" Grid.Row="1" VerticalAlignment="Top" Width="107"                       />
         <Button Content="Search" HorizontalAlignment="Left" Margin="200,51,0,0" Grid.Row="1" VerticalAlignment="Top" Width="97"/>
-        <ListView x:Name="ChatItems" HorizontalAlignment="Left" Height="388" Margin="55,115,0,0" Grid.Row="1" VerticalAlignment="Top" Width="967" BorderBrush="Black" BorderThickness="2" SelectionMode="None" FontSize="14" FontFamily="Calibri Light"/>
-        <TextBox x:Name="NewMessage" HorizontalAlignment="Left" Margin="55,527,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="967" AcceptsReturn="True"/>
-        <Button x:ConnectionId='2' Content="Send" HorizontalAlignment="Left" Margin="929,580,0,0" Grid.Row="1" VerticalAlignment="Top" Width="93"                       />
+        <ListView x:ConnectionId='2' x:Name="ChatItems" HorizontalAlignment="Left" Height="388" Margin="55,115,0,0" Grid.Row="1" 
+                  VerticalAlignment="Top" Width="967" BorderBrush="Black" BorderThickness="2" SelectionMode="Single"
+                  FontSize="14" FontFamily="Calibri Light"                                              />
 
         <VisualStateManager.VisualStateGroups>
 

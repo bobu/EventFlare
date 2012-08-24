@@ -19,11 +19,14 @@ namespace EventFlare
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class Flares: EventFlare.Common.LayoutAwarePage
+    public sealed partial class FlareInFlames : EventFlare.Common.LayoutAwarePage
     {
-        public Flares()
+        public User CurrentUser { get; set; }
+
+        public FlareInFlames()
         {
             this.InitializeComponent();
+            CurrentUser = new User("Frodo", "Frodo", "Baggins", "@frodolives", "frodo@TheShire.net");
         }
 
         /// <summary>
@@ -37,13 +40,20 @@ namespace EventFlare
         /// session.  This will be null the first time a page is visited.</param>
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            // start with some hard-coded messages until service is ready
-            //ChatItems.Items.Add("[SteveB]    Don't you think we should have error messages like C++ templates do?");
-            //ChatItems.Items.Add("[BobL]      Dude, are you out of your mind?!");
-            ChatItems.Items.Add("C# Generics Are good for your health");
-            ChatItems.Items.Add("Talk ASYNC To Me");
-            ChatItems.Items.Add("Making Windows Store easier to publish to");
-            ChatItems.Items.Add("Finding Designer Jobs in a Developer World");
+            // navigation parameter is a selected item from the list of flares.
+            if (navigationParameter != null)
+            {
+                string flareName = navigationParameter as string;
+
+                if (flareName != null)
+                {
+                    this.pageTitle.Text = flareName;
+
+                    // start with some hard-coded messages until service is ready
+                    ChatEntries.Items.Add("[SteveB]    Don't you think we should have error messages like C++ templates do?");
+                    ChatEntries.Items.Add("[BobL]      Dude, are you out of your mind?!");
+                }
+            }
         }
 
         /// <summary>
@@ -58,15 +68,15 @@ namespace EventFlare
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            // add a new Flare
         }
 
-        private void ChatItems_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            ListView listView = sender as ListView;
-            if (listView != null)
+            if (NewMessage.Text.Trim().Length > 0)
             {
-                this.Frame.Navigate(typeof(FlareInFlames), listView.SelectedItem);
+                string message = string.Format("[{0}]\t{1}", CurrentUser.Handle, NewMessage.Text);
+                ChatEntries.Items.Add(message);
             }
         }
     }

@@ -114,11 +114,13 @@ namespace EventFlare.EventFlare_XamlTypeInfo
 
         private object Activate_0_LayoutAwarePage() { return new global::EventFlare.Common.LayoutAwarePage(); }
 
-        private object Activate_1_Flares() { return new global::EventFlare.Flares(); }
+        private object Activate_1_FlareInFlames() { return new global::EventFlare.FlareInFlames(); }
 
-        private object Activate_3_ItemsPage() { return new global::EventFlare.ItemsPage(); }
+        private object Activate_3_Flares() { return new global::EventFlare.Flares(); }
 
-        private object Activate_4_SplitPage() { return new global::EventFlare.SplitPage(); }
+        private object Activate_4_ItemsPage() { return new global::EventFlare.ItemsPage(); }
+
+        private object Activate_5_SplitPage() { return new global::EventFlare.SplitPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -146,9 +148,9 @@ namespace EventFlare.EventFlare_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case "EventFlare.Flares":
-                userType = new global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::EventFlare.Flares), GetXamlTypeByName("EventFlare.Common.LayoutAwarePage"));
-                userType.Activator = Activate_1_Flares;
+            case "EventFlare.FlareInFlames":
+                userType = new global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::EventFlare.FlareInFlames), GetXamlTypeByName("EventFlare.Common.LayoutAwarePage"));
+                userType.Activator = Activate_1_FlareInFlames;
                 userType.AddMemberName("CurrentUser");
                 xamlType = userType;
                 break;
@@ -158,15 +160,21 @@ namespace EventFlare.EventFlare_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "EventFlare.Flares":
+                userType = new global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::EventFlare.Flares), GetXamlTypeByName("EventFlare.Common.LayoutAwarePage"));
+                userType.Activator = Activate_3_Flares;
+                xamlType = userType;
+                break;
+
             case "EventFlare.ItemsPage":
                 userType = new global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::EventFlare.ItemsPage), GetXamlTypeByName("EventFlare.Common.LayoutAwarePage"));
-                userType.Activator = Activate_3_ItemsPage;
+                userType.Activator = Activate_4_ItemsPage;
                 xamlType = userType;
                 break;
 
             case "EventFlare.SplitPage":
                 userType = new global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::EventFlare.SplitPage), GetXamlTypeByName("EventFlare.Common.LayoutAwarePage"));
-                userType.Activator = Activate_4_SplitPage;
+                userType.Activator = Activate_5_SplitPage;
                 xamlType = userType;
                 break;
 
@@ -175,14 +183,14 @@ namespace EventFlare.EventFlare_XamlTypeInfo
         }
 
 
-        private object get_0_Flares_CurrentUser(object instance)
+        private object get_0_FlareInFlames_CurrentUser(object instance)
         {
-            var that = (global::EventFlare.Flares)instance;
+            var that = (global::EventFlare.FlareInFlames)instance;
             return that.CurrentUser;
         }
-        private void set_0_Flares_CurrentUser(object instance, object Value)
+        private void set_0_FlareInFlames_CurrentUser(object instance, object Value)
         {
-            var that = (global::EventFlare.Flares)instance;
+            var that = (global::EventFlare.FlareInFlames)instance;
             that.CurrentUser = (global::EventFlare.User)Value;
         }
 
@@ -193,11 +201,11 @@ namespace EventFlare.EventFlare_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "EventFlare.Flares.CurrentUser":
-                userType = (global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EventFlare.Flares");
+            case "EventFlare.FlareInFlames.CurrentUser":
+                userType = (global::EventFlare.EventFlare_XamlTypeInfo.XamlUserType)GetXamlTypeByName("EventFlare.FlareInFlames");
                 xamlMember = new global::EventFlare.EventFlare_XamlTypeInfo.XamlMember(this, "CurrentUser", "EventFlare.User");
-                xamlMember.Getter = get_0_Flares_CurrentUser;
-                xamlMember.Setter = set_0_Flares_CurrentUser;
+                xamlMember.Getter = get_0_FlareInFlames_CurrentUser;
+                xamlMember.Setter = set_0_FlareInFlames_CurrentUser;
                 break;
             }
             return xamlMember;

@@ -106,6 +106,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FlareInFlames.xaml.cs">
+      <DependentUpon>FlareInFlames.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Flares.xaml.cs">
       <DependentUpon>Flares.xaml</DependentUpon>
     </Compile>
@@ -140,6 +143,10 @@
     <Content Include="Assets\LightGray.png" />
     <Content Include="Assets\MediumGray.png" />
     <Content Include="Assets\DarkGray.png" />
+    <Page Include="FlareInFlames.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Flares.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

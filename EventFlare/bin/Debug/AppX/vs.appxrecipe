@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-08-24T22:23:34.788</Modified>
+      <Modified>2012-08-24T23:03:04.200</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\EventFlare.exe">
       <PackagePath>EventFlare.exe</PackagePath>
-      <Modified>2012-08-24T22:25:20.540</Modified>
+      <Modified>2012-08-24T23:20:14.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\EventFlare.pdb">
       <PackagePath>EventFlare.pdb</PackagePath>
-      <Modified>2012-08-24T22:25:20.509</Modified>
+      <Modified>2012-08-24T23:20:14.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -64,9 +64,13 @@
       <PackagePath>App.xaml</PackagePath>
       <Modified>2012-08-24T19:15:58.330</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\FlareInFlames.xaml">
+      <PackagePath>FlareInFlames.xaml</PackagePath>
+      <Modified>2012-08-24T22:57:30.028</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\Flares.xaml">
       <PackagePath>Flares.xaml</PackagePath>
-      <Modified>2012-08-24T22:12:31.388</Modified>
+      <Modified>2012-08-24T23:09:30.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -74,7 +78,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\ItemsPage.xaml">
       <PackagePath>ItemsPage.xaml</PackagePath>
-      <Modified>2012-08-24T19:15:58.528</Modified>
+      <Modified>2012-08-24T22:32:03.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\SplitPage.xaml">
       <PackagePath>SplitPage.xaml</PackagePath>
@@ -82,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-08-24T21:49:02.018</Modified>
+      <Modified>2012-08-24T23:03:04.097</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

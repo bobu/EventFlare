@@ -64,7 +64,7 @@
                                           />
 
         <!-- Back button and page title -->
-        <Grid>
+        <Grid Margin="0,-321,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>

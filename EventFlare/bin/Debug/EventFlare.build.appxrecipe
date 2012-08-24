@@ -47,6 +47,9 @@
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\FlareInFlames.xaml">
+      <PackagePath>FlareInFlames.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober_000\Documents\GitHub\EventFlare\EventFlare\bin\Debug\Flares.xaml">
       <PackagePath>Flares.xaml</PackagePath>
     </AppxPackagedFile>
