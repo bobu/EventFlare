@@ -262,7 +262,7 @@ namespace EventFlare.Data
             var group1 = new SampleDataGroup("Group-1",
                     "Schedule",
                     "Daily schedule events by Track",
-                    "Assets/DarkGray.png",
+                    "Assets/Schedule.png",
                     "Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante");
             group1.Items.Add(new SampleDataItem("Group-1-Item-1",
                     "Item Title: 1",
@@ -304,7 +304,7 @@ namespace EventFlare.Data
             var group2 = new SampleDataGroup("Group_Flares",
                     "Flares",
                     "Flare Sessions Created by Attendees",
-                    "Assets/LightGray.png",
+                    "Assets/Flares.png",
                     "A Flare is a topical chat room quickly spun up by an attendee.");
             group2.Items.Add(new SampleDataItem("Group_Flares-Item-1",
                     "C# generics",
@@ -332,7 +332,7 @@ namespace EventFlare.Data
             var group3 = new SampleDataGroup("Group-3",
                     "Area Entertainment",
                     "Restaurants, Pubs, Movies, Concerts and other events in the area",
-                    "Assets/MediumGray.png",
+                    "Assets/Entertainment.png",
                     "Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante");
             group3.Items.Add(new SampleDataItem("Group-3-Item-1",
                     "Item Title: 1",
@@ -388,7 +388,7 @@ namespace EventFlare.Data
             var group4 = new SampleDataGroup("Group-4",
                     "My Personal Schedule",
                     "Identifies which sessions you plan on attending.",
-                    "Assets/LightGray.png",
+                    "Assets/Personal.png",
                     "Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante");
             group4.Items.Add(new SampleDataItem("Group-4-Item-1",
                     "Item Title: 1",
@@ -437,7 +437,7 @@ namespace EventFlare.Data
             var group5 = new SampleDataGroup("Group-5",
                     "Event Resources",
                     "Downloadable software, links to additional information, etc.",
-                    "Assets/MediumGray.png",
+                    "Assets/Resources.png",
                     "Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante");
             group5.Items.Add(new SampleDataItem("Group-5-Item-1",
                     "Item Title: 1",

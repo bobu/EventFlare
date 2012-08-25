@@ -136,7 +136,12 @@
     <None Include="EventFlare_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Entertainment.png" />
+    <Content Include="Assets\Flares.png" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Personal.png" />
+    <Content Include="Assets\Resources.png" />
+    <Content Include="Assets\Schedule.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
