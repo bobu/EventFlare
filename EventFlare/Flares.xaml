@@ -22,6 +22,9 @@
         * Row 1 contains the rest of the page layout
     -->
     <Grid Style="{StaticResource LayoutRootStyle}" Margin="0,3,0,-3">
+        <Grid.Background>
+            <SolidColorBrush Color="Firebrick"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -40,7 +43,7 @@
         <Button Content="Search" HorizontalAlignment="Left" Margin="200,51,0,0" Grid.Row="1" VerticalAlignment="Top" Width="97"/>
         <ListView x:Name="ChatItems" HorizontalAlignment="Left" Height="388" Margin="55,115,0,0" Grid.Row="1" 
                   VerticalAlignment="Top" Width="967" BorderBrush="Black" BorderThickness="2" SelectionMode="Single"
-                  FontSize="14" FontFamily="Calibri Light" SelectionChanged="ChatItems_SelectionChanged"/>
+                  Background="Goldenrod"  FontSize="18" SelectionChanged="ChatItems_SelectionChanged" FontFamily="Lucida Sans Unicode"/>
 
         <VisualStateManager.VisualStateGroups>
 

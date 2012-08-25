@@ -22,6 +22,9 @@
         * Row 1 contains the rest of the page layout
     -->
     <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <SolidColorBrush Color="Red"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -36,7 +39,7 @@
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
-        <ListView x:Name="ChatEntries" HorizontalAlignment="Left" Height="388" Margin="55,115,0,0" Grid.Row="1" VerticalAlignment="Top" Width="967" BorderBrush="Black" BorderThickness="2" SelectionMode="None" FontSize="14" FontFamily="Calibri Light"/>
+        <ListView x:Name="ChatEntries" Background="DarkOrange" HorizontalAlignment="Left" Height="388" Margin="55,115,0,0" Grid.Row="1" VerticalAlignment="Top" Width="967" BorderBrush="Black" BorderThickness="2" SelectionMode="None" FontSize="14" FontFamily="Calibri Light"/>
         <TextBox x:Name="NewMessage" HorizontalAlignment="Left" Margin="55,527,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="967"/>
         <Button Content="Send" HorizontalAlignment="Left" Margin="929,580,0,0" Grid.Row="1" VerticalAlignment="Top" Width="93" Click="Button_Click_2"/>
 
